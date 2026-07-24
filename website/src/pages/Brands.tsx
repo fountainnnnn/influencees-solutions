@@ -212,7 +212,7 @@ function WhatYouGet() {
       </Reveal>
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
         {cards.map((c, i) => (
-          <Reveal key={c.label} delay={i * 90} className="h-full">
+          <Reveal key={c.label} delay={i * 90} className="min-w-0 h-full">
             <GlowCard
               glow={c.glow}
               minHeight={0}
@@ -416,38 +416,61 @@ function RealScreens() {
       <Container className="py-20 lg:py-24">
         <Reveal>
           <SectionHeader
-            eyebrow="The platform"
-            title="See it live."
-            subtitle="Captured from the brands experience on influencees.com."
+            eyebrow="Product proof"
+            title="From a shortlist to a report you can send."
+            subtitle="Real screens from the live Influencees workspace, framed in the redesigned experience."
           />
         </Reveal>
         <div className="mt-12 grid gap-6 lg:grid-cols-2">
           <Reveal>
-            <ProductFrame url="influencees.com/for-brands" tilt bodyClassName="p-0">
-              <div className="aspect-[16/10] w-full overflow-hidden">
+            <ProductFrame
+              url="app.influencees.com/discovery"
+              tilt
+              bodyClassName="bg-paper p-0"
+            >
+              <div className="aspect-[4/3] w-full overflow-hidden">
                 <img
-                  src="/shots/brands.png"
-                  alt="Top of the live Influencees brands page"
+                  src="/shots/live-discovery.png"
+                  alt="Live Influencees creator evaluation showing content examples, collaboration score and suitability signals"
                   loading="lazy"
-                  className="w-full object-cover object-top"
+                  className="h-full w-full object-cover object-top"
                 />
               </div>
             </ProductFrame>
-            <p className="mt-3 font-mono text-xs text-ink-3">Discovery and pitch</p>
+            <div className="mt-4 max-w-lg">
+              <h3 className="font-medium text-ink">
+                Evaluate the fit, not only the following
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink-2">
+                Review recent content alongside commercial, diligence and
+                broadcasting signals before adding a creator to the campaign.
+              </p>
+            </div>
           </Reveal>
           <Reveal delay={90}>
-            <ProductFrame url="influencees.com/for-brands" tilt bodyClassName="p-0">
-              <div className="aspect-[16/10] w-full overflow-hidden">
+            <ProductFrame
+              url="app.influencees.com/reports"
+              tilt
+              bodyClassName="bg-paper p-0"
+            >
+              <div className="aspect-[4/3] w-full overflow-hidden">
                 <img
-                  src="/shots/brands.png"
-                  alt="A lower section of the live Influencees brands page"
+                  src="/shots/live-campaign-alt.png"
+                  alt="Live Influencees client-ready campaign report showing total impressions, reach and engagement rate"
                   loading="lazy"
-                  className="w-full object-cover"
-                  style={{ objectPosition: '50% 42%' }}
+                  className="h-full w-full object-cover object-top"
                 />
               </div>
             </ProductFrame>
-            <p className="mt-3 font-mono text-xs text-ink-3">Workspace and reporting</p>
+            <div className="mt-4 max-w-lg">
+              <h3 className="font-medium text-ink">
+                Finish with a report clients can read
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink-2">
+                Turn campaign results into a clear, downloadable summary
+                without rebuilding the story in a separate deck.
+              </p>
+            </div>
           </Reveal>
         </div>
       </Container>

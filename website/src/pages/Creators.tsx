@@ -185,7 +185,7 @@ function Toolkit() {
       </Reveal>
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
         {cards.map((c, i) => (
-          <Reveal key={c.label} delay={i * 90} className="h-full">
+          <Reveal key={c.label} delay={i * 90} className="min-w-0 h-full">
             <GlowCard
               glow={c.glow}
               minHeight={0}

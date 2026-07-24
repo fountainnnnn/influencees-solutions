@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import Container from './Container'
 
-type FooterLink = { label: string; to: string }
+type FooterLink = { label: string; to: string; external?: boolean }
 type FooterColumn = { title: string; links: FooterLink[] }
 
 const COLUMNS: FooterColumn[] = [
@@ -34,8 +34,21 @@ const COLUMNS: FooterColumn[] = [
     links: [
       { label: 'About', to: '/about' },
       { label: 'Contact', to: '/contact' },
-      { label: 'Privacy', to: '/about' },
-      { label: 'Terms', to: '/about' },
+      {
+        label: 'Careers',
+        to: 'https://www.influencees.com/careers',
+        external: true,
+      },
+      {
+        label: 'Privacy',
+        to: 'https://www.influencees.com/privacy',
+        external: true,
+      },
+      {
+        label: 'Terms',
+        to: 'https://www.influencees.com/terms',
+        external: true,
+      },
     ],
   },
 ]
@@ -67,12 +80,21 @@ export default function Footer() {
               <ul className="mt-4 space-y-2.5">
                 {col.links.map((link) => (
                   <li key={`${col.title}-${link.label}`}>
-                    <Link
-                      to={link.to}
-                      className="text-sm text-ink-2 transition-colors hover:text-ink"
-                    >
-                      {link.label}
-                    </Link>
+                    {link.external ? (
+                      <a
+                        href={link.to}
+                        className="text-sm text-ink-2 transition-colors hover:text-ink"
+                      >
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        to={link.to}
+                        className="text-sm text-ink-2 transition-colors hover:text-ink"
+                      >
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

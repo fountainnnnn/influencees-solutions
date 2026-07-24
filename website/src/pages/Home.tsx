@@ -45,7 +45,7 @@ function lead(c: (typeof creators)[number]) {
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden">
+      <section id="hero" className="relative overflow-hidden">
       <Container className="grid gap-14 py-24 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:py-28">
         <div>
           <p className="animate-rise text-gradient-brand mb-5 text-xs font-semibold uppercase tracking-[0.08em]">
@@ -590,20 +590,38 @@ function PlatformToday() {
       <Container className="py-20 lg:py-28">
         <Reveal>
           <SectionHeader
-            eyebrow="The platform"
-            title="See it live."
-            subtitle="A live capture of influencees.com, running today."
+            eyebrow="Inside the workspace"
+            title="The product, doing the work."
+            subtitle="One request turns into creator matches, audience overlap, reach forecasts and budget pacing."
           />
         </Reveal>
         <Reveal className="mt-12 mx-auto max-w-4xl">
-          <ProductFrame url="influencees.com" tilt bodyClassName="p-0">
+          <ProductFrame
+            url="app.influencees.com/campaigns"
+            tilt
+            bodyClassName="bg-paper p-0"
+          >
             <img
-              src="/shots/home.png"
-              alt="The Influencees home page on the live site"
+              src="/shots/live-ai-kyo-workspace.png"
+              alt="The live Influencees workspace showing Ai-kyo creator matches, campaign insight, audience overlap and performance forecasts"
               loading="lazy"
               className="block w-full"
             />
           </ProductFrame>
+          <div className="mt-6 grid gap-4 border-t border-line pt-5 text-sm sm:grid-cols-3">
+            <p className="text-ink-2">
+              <span className="font-medium text-ink">Match:</span> shortlist
+              creators against the campaign and budget.
+            </p>
+            <p className="text-ink-2">
+              <span className="font-medium text-ink">Forecast:</span> see reach,
+              engagement and audience overlap before committing.
+            </p>
+            <p className="text-ink-2">
+              <span className="font-medium text-ink">Manage:</span> keep spend,
+              stages and next actions in the same workspace.
+            </p>
+          </div>
         </Reveal>
       </Container>
     </section>

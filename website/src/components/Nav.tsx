@@ -114,10 +114,10 @@ export default function Nav() {
         </div>
 
         <div className="hidden items-center gap-2 lg:flex">
-          <Button to="/contact" variant="ghost" size="sm">
+          <Button href="https://www.influencees.com/signin" variant="ghost" size="sm">
             Sign in
           </Button>
-          <Button to="/brands" variant="primary" size="sm">
+          <Button to="/join" variant="primary" size="sm">
             Get started
           </Button>
         </div>
@@ -158,10 +158,10 @@ export default function Nav() {
               </NavLink>
             ))}
             <div className="mt-3 flex flex-col gap-2 border-t border-line pt-4">
-              <Button to="/contact" variant="secondary" size="md">
+              <Button href="https://www.influencees.com/signin" variant="secondary" size="md">
                 Sign in
               </Button>
-              <Button to="/brands" variant="primary" size="md">
+              <Button to="/join" variant="primary" size="md">
                 Get started
               </Button>
             </div>
