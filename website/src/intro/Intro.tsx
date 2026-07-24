@@ -510,30 +510,30 @@ function SceneFinale({
       </p>
 
       <div
-        className="reveal mx-auto mt-10 flex max-w-md items-stretch justify-center gap-4"
+        className="reveal mx-auto mt-10 grid max-w-lg grid-cols-2 gap-x-10 sm:gap-x-16"
         style={d(320)}
       >
-        <div className="flex-1 rounded-lg border border-paper/15 bg-paper/5 px-5 py-4 text-left">
+        <div className="text-center">
           <CountUp
             end={1240}
             active={active}
             reduced={reduced}
             delay={420}
-            className="tabular font-mono text-2xl font-semibold text-paper"
+            className="tabular font-display text-3xl font-medium tracking-[-0.03em] text-paper sm:text-4xl"
           />
-          <div className="mt-1 font-mono text-[11px] text-paper/60">
+          <div className="mt-2 text-[11px] font-medium uppercase tracking-[0.14em] text-paper/55">
             Creators indexed
           </div>
         </div>
-        <div className="flex-1 rounded-lg border border-paper/15 bg-paper/5 px-5 py-4 text-left">
+        <div className="text-center">
           <CountUp
             end={38500}
             active={active}
             reduced={reduced}
             delay={520}
-            className="tabular font-mono text-2xl font-semibold text-paper"
+            className="tabular font-display text-3xl font-medium tracking-[-0.03em] text-paper sm:text-4xl"
           />
-          <div className="mt-1 font-mono text-[11px] text-paper/60">
+          <div className="mt-2 text-[11px] font-medium uppercase tracking-[0.14em] text-paper/55">
             Posts checked
           </div>
         </div>
