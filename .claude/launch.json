@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "website",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5180", "--strictPort"],
+      "cwd": "website",
+      "port": 5180
+    },
+    {
+      "name": "bd-agent",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5181", "--strictPort"],
+      "cwd": "bd-agent",
+      "port": 5181
+    }
+  ]
+}

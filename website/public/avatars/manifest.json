@@ -1,0 +1,21 @@
+{
+  "note": "Real SG creators surfaced on influencees.com's own trending feed (public TikTok avatars via their proxy). Names, sample content titles and view counts are real; follower/ER/rate metrics remain estimates and must stay labeled as sample estimates.",
+  "creators": [
+    { "slug": "janae-chua", "name": "Janae Chua", "handle": "@janaechua", "sg": true, "niche": "Finance", "sampleTitle": "Content creation is definitely a business and here's how the moolah is made", "sampleViews": 23000 },
+    { "slug": "brooke", "name": "Brooke", "handle": "@brooke", "sg": true, "niche": "Lifestyle", "sampleTitle": "Our generation of homegrown creators", "sampleViews": 116000 },
+    { "slug": "riona", "name": "riona", "handle": "@riona", "sg": true, "niche": "Lifestyle", "sampleTitle": "birthday", "sampleViews": 139000 },
+    { "slug": "bella", "name": "bella", "handle": "@bella", "sg": true, "niche": "Lifestyle", "sampleTitle": "most known youngest tiktokers", "sampleViews": 63000 },
+    { "slug": "amy-lien", "name": "amy lien", "handle": "@amylien", "sg": true, "niche": "Travel", "sampleTitle": "travel with me to singapore", "sampleViews": 11000 },
+    { "slug": "vintage-guy", "name": "The Vintage Guy", "handle": "@thevintageguy", "sg": true, "niche": "Lifestyle", "sampleTitle": "A Day in My Life as A Filipino Living in Singapore", "sampleViews": 8000 },
+    { "slug": "crystal", "name": "crystal", "handle": "@crystxl.am", "sg": true, "niche": "Travel", "sampleTitle": "singapore vlog day 1!", "sampleViews": 6000 },
+    { "slug": "dibs-sg", "name": "Dibs.sg", "handle": "@dibs.sg", "sg": true, "niche": "Travel", "sampleTitle": "Singapore's smartest overnight hack", "sampleViews": 4000 },
+    { "slug": "kelvins-grill", "name": "1981 Kelvin's Grill", "handle": "@1981kelvinsgrill", "sg": true, "niche": "Food", "sampleTitle": "1981 Kelvin's Grill", "sampleViews": 3000 },
+    { "slug": "ashley", "name": "ashley", "handle": "@ashley.solotravel", "sg": true, "niche": "Travel", "sampleTitle": "Spend the day with me in Singapore as a content creator", "sampleViews": 452 },
+    { "slug": "natalie-griffin", "name": "Natalie Griffin", "handle": "@natalie_griffin", "sg": true, "niche": "Lifestyle", "sampleTitle": "realistic day as a content creator in singapore!", "sampleViews": 131 },
+    { "slug": "clarity", "name": "CLARITY", "handle": "@clarity", "sg": true, "niche": "Lifestyle", "sampleTitle": "MORE sg baddies to follow", "sampleViews": 338000 },
+    { "slug": "singapore4k", "name": "Singapore4k", "handle": "@singapore4k", "sg": true, "niche": "Travel", "sampleTitle": "Marina Bay Shopping Mall, Singapore places to visit", "sampleViews": 14000 },
+    { "slug": "darryltengg", "name": "darryltengg", "handle": "@darryltengg", "sg": false, "niche": "Lifestyle", "sampleTitle": "cruising around singapore", "sampleViews": 769000 },
+    { "slug": "xinyichi08", "name": "xinyichi08", "handle": "@xinyichi08", "sg": false, "niche": "Travel", "sampleTitle": "Singapore, where modern city life meets incredible beauty", "sampleViews": 408000 },
+    { "slug": "katelyns-room", "name": "Katelyn's Room", "handle": "@katelynsroom", "sg": false, "niche": "Lifestyle", "sampleTitle": "pool dunk in Singapore", "sampleViews": 215000 }
+  ]
+}
